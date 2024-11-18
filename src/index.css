@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .hovered {
+        @apply bg-blue text-white;
+    }
+
+    .open {
+        @apply w-[306px];
+    }
+
+    .pop {
+        @apply w-full
+    }
+}
+
+/* .css-r47a1p-MuiFormControl-root {
+    margin: 0px !important;
+    width: 100% !important;
+}
+
+.css-189e9pj-MuiButtonBase-root-MuiButton-root {
+    background-color: #5932ea !important;
+} */
+
+
+
+.active {
+    background-color: #5932ea;
+
+    color: #fff !important;
+}
+
+.hoverMenu {
+    width: 80% !important;
+}
+
+.openText {
+    display: flex !important;
+}
+
+/* 
+.MuiButtonBase-root.MuiAccordionSummary-root.MuiAccordionSummary-gutters.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+    justify-content: start;
+} */
+
+table tr {
+    border-bottom: 1px solid #dededeae !important;
+}
+
+/* .css-o4b71y-MuiAccordionSummary-content.Mui-expanded {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.css-o4b71y-MuiAccordionSummary-content {
+    align-items: center;
+}
+
+.cancel {
+    color: #777 !important;
+}
+
+.ok {
+    color: white !important;
+    background-color: #5932ea !important;
+}
+
+.oke {
+    color: white !important;
+    background-color: #5932ea !important;
+}
+
+.css-v4u5dn-MuiInputBase-root-MuiInput-root::after {
+    border-bottom: 2px solid #5932ea !important;
+}
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #5932ea !important;
+}
+
+.css-wb57ya-MuiFormControl-root-MuiTextField-root {
+    margin: 0 auto !important;
+}
+
+.css-189e9pj-MuiButtonBase-root-MuiButton-root {
+    margin: 0 auto !important;
+} */
+
+@media (min-width : 638px) {
+    .pop {
+        width: 0 !important
+    }
+}
+
+.textfield__label {
+    color: red;
+}
+
+/* .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+    font-size: 13px !important
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #5932ea !important;
+}
+
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #5932ea !important;
+}
+
+.css-189e9pj-MuiButtonBase-root-MuiButton-root {
+    font-size: 14px !important;
+}
+
+.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #5932ea !important;
+}
+
+.css-1evprfk-MuiButtonBase-root-MuiButton-root {
+    background-color: #5932ea !important;
+}
+
+.css-1evprfk-MuiButtonBase-root-MuiButton-root:hover {
+    background-color: #5932ea !important;
+    padding: 10px 16px !important;
+}
+
+.ok {
+    margin: 0 auto !important;
+    max-width: 200px;
+    padding: 15px 0;
+}
+
+
+
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+    color: #5932ea !important;
+}
+
+.css-1fu7jd5-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+    color: rgba(0, 0, 0, 0.26) !important;
+    box-shadow: none !important;
+    background-color: rgba(0, 0, 0, 0.12) !important;
+}
+
+.css-o4b71y-MuiAccordionSummary-content {
+    gap: 5px;
+}
+
+.date-input::-webkit-calendar-picker-indicator {
+    background-image: url('../public/assest/calendar_line.svg');
+    background-size: cover;
+    opacity: 1;
+    cursor: pointer;
+}
+
+* {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    font-size: 14px !important;
+
+} */
